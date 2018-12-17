@@ -1,0 +1,30 @@
+{
+  "name": "react-ql",
+  "version": "1.0.0",
+  "description": "SpaceX launch missions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KChen8516/react-ql.git"
+  },
+  "keywords": [],
+  "author": "Kai Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KChen8516/react-ql/issues"
+  },
+  "homepage": "https://github.com/KChen8516/react-ql#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
